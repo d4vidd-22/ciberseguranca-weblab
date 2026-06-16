@@ -21,6 +21,10 @@ body {
     filter: invert(1) hue-rotate(180deg);
 }
 
+body > :not(nav, button, input, textarea)  {
+    padding: 20px;
+}
+
 nav {
     background-color: #333;
     padding: 1rem;
