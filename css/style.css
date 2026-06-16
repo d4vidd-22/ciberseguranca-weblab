@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    padding: 20px;
     color: #333;
     transition: font-size 0.2s ease;
 }
@@ -21,8 +22,8 @@ body {
     filter: invert(1) hue-rotate(180deg);
 }
 
-body > :not(nav, button, input, textarea)  {
-    padding: 20px;
+body > * {
+    padding: 0
 }
 
 nav {
