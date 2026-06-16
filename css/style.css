@@ -134,3 +134,35 @@ footer {
 textarea {
     font-size: 16px;
 }
+
+.descricoes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 80px 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.descricao {
+    width: 320px;
+    text-align: center;
+}
+
+.descricao h3 {
+    min-height: 55px;
+}
+
+.descricao p {
+    min-height: 150px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.fotosobre {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10%;
+}
