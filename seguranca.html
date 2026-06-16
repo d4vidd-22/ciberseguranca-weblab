@@ -31,7 +31,7 @@
 
     <p>Nesta página aqui você pode geral uma senha segura.</p>
 
-    <input type="number" id="tamanho" placeholder="Tamanho da senha" min="1" max="64">
+    <input type="number" id="tamanho" placeholder="Tamanho da senha" oninput="if(parseInt(this.value) > 64) this.value = 64; if(parseInt(this.value) < 1) this.value = 1;" min="1" max="64">
     <button onclick="gerarsenha(Number(document.querySelector('input[type=\'number\']').value))">gerar senha</button>
     <h2>Senhas geradas</h2>
     <br>
